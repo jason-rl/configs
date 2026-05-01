@@ -1,0 +1,1 @@
+../../awesome-claude-code-subagents/categories/09-meta-orchestration/multi-agent-coordinator.md

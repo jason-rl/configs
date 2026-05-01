@@ -1,0 +1,6 @@
+[submodule "jujutsu-skill"]
+	path = jujutsu-skill
+	url = https://github.com/danverbraganza/jujutsu-skill.git
+[submodule "awesome-claude-code-subagents"]
+	path = awesome-claude-code-subagents
+	url = https://github.com/VoltAgent/awesome-claude-code-subagents.git

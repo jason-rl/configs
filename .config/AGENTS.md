@@ -8,20 +8,17 @@ site, you have automatic permission to fetch other pages with that same domain
 
 The definition of term 'prefer' throughout the rest of this system prompt
 
-If executing binaries that fetch HTTP web content or communicate to HTTP API
-(e.g. `gh`, `curl`), always add the HTTP `User-Agent` header with the same value
-as what your harness' native Web tools would set. If the site is heavily
-rate-limiting you and you suspect it is due to the site operator's hatred of
-your existence as an LLM, you may stop setting the `User-Agent` header (use
-`curl-cffi` instead `curl`) and prefer such binaries over dedicated MCP
-servers/tools after informing me. If using `curl`, always include `-f` and `-L`
-(unless URL protocol is not HTTP/HTTPS or you are investigating redirect
-responses) and `--retry 1`.
+If using `curl`, always include `-f` and `-L` (unless URL protocol is not
+HTTP/HTTPS or you are investigating redirect responses) and `--retry 1`.
 
 If doing work inside multiple repositories or worktrees (even of same
 repository), always prefix your shell commands with `cd {absolute path}` unless
 you are _not_ using parallel agent(s) nor doing tasks in parallel and can
 guarantee sequential steps.
+
+If using absolute paths in your tool/binary calls, make sure you are aware
+of whether you are in a git worktree/jj workspace (if you are, do **not** use
+the workspace root accidentally) or not.
 
 Prefer using `jq` binary over `python3 -m json` or `python3 -c 'import sys,
 json; json.load(sys.stdin)'` or `node -e

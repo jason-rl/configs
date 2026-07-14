@@ -1,5 +1,34 @@
 {
   "cleanupPeriodDays": 45,
+  "env": {
+    "CLAUDE_CODE_AUTO_COMPACT_WINDOW": "250000"
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ~/.claude/hooks/auto-stop-on-context-limit.js",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ~/.claude/hooks/auto-stop-on-context-limit.js",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  },
   "permissions": {
     "allow": [
       "Bash(helm list *)",

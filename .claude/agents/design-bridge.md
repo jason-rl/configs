@@ -1,1 +1,0 @@
-../../awesome-claude-code-subagents/categories/01-core-development/design-bridge.md

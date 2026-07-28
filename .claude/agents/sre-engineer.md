@@ -1,1 +1,0 @@
-../../awesome-claude-code-subagents/categories/03-infrastructure/sre-engineer.md

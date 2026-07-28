@@ -1,1 +1,0 @@
-../../awesome-claude-code-subagents/categories/07-specialized-domains/risk-manager.md

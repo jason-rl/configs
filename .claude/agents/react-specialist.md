@@ -1,1 +1,0 @@
-../../awesome-claude-code-subagents/categories/02-language-specialists/react-specialist.md

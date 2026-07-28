@@ -1,1 +1,0 @@
-../../awesome-claude-code-subagents/categories/04-quality-security/error-detective.md

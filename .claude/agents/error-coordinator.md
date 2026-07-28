@@ -1,1 +1,0 @@
-../../awesome-claude-code-subagents/categories/09-meta-orchestration/error-coordinator.md

@@ -1,1 +1,0 @@
-../../awesome-claude-code-subagents/categories/01-core-development/websocket-engineer.md

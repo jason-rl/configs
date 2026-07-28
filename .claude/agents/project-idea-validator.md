@@ -1,1 +1,0 @@
-../../awesome-claude-code-subagents/categories/10-research-analysis/project-idea-validator.md

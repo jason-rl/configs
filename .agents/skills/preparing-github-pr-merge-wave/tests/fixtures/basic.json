@@ -1,0 +1,30 @@
+{
+  "viewer": "alice",
+  "repository": "acme/widgets",
+  "pullRequests": [
+    {
+      "number": 123,
+      "url": "https://github.com/acme/widgets/pull/123",
+      "state": "OPEN",
+      "author": {"login": "alice"},
+      "createdAt": "2026-08-12T18:00:00Z",
+      "headRefName": "feature/base",
+      "headRefOid": "1111111111111111111111111111111111111111",
+      "headRepository": {"nameWithOwner": "acme/widgets"},
+      "baseRefName": "main",
+      "baseRefOid": "0000000000000000000000000000000000000000",
+      "baseRepository": {"nameWithOwner": "acme/widgets"},
+      "isDraft": true,
+      "maintainerCanModify": true,
+      "files": [
+        {
+          "path": "src/base.py",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 1,
+          "patch": "@@ -10,1 +10,2 @@"
+        }
+      ]
+    }
+  ]
+}
